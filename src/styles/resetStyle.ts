@@ -1,4 +1,4 @@
-import { css } from "@emotion/react";
+import { css } from '@emotion/react'
 
 export const resetStyle = css`
   /* Eric Meyer - reset style */
@@ -119,7 +119,7 @@ export const resetStyle = css`
   blockquote:after,
   q:before,
   q:after {
-    content: "";
+    content: '';
     content: none;
   }
   table {
@@ -146,4 +146,4 @@ export const resetStyle = css`
   a {
     text-decoration: none;
   }
-`;
+`
