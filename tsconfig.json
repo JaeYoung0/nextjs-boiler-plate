@@ -1,3 +1,5 @@
+// TODO: https://nextjs.org/docs/basic-features/eslint
+
 {
   "compilerOptions": {
     "baseUrl": "./",
@@ -10,7 +12,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
