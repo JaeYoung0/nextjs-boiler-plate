@@ -33,7 +33,8 @@
     "prettier/prettier": "warn",
     "react/react-in-jsx-scope": "off", // next.js doesn't require 'import React'
     "react-hooks/rules-of-hooks": "error", // plugins - react-hooks
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "react/no-unknown-property": ["error", { "ignore": ["css"] }]
   },
   "ignorePatterns": ["dist/", "node_modules/"]
 }
