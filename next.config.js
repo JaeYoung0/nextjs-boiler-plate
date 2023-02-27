@@ -16,6 +16,10 @@ const config = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+
+  compiler: {
+    emotion: true,
+  },
 }
 
 module.exports = config

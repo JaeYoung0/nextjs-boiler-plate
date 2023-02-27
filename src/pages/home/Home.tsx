@@ -10,7 +10,10 @@ function Home() {
           color: white;
         `}
       >
-        Home
+        <S.Wrapper>
+          <S.Item>item 1</S.Item>
+          <S.Item>item 2</S.Item>
+        </S.Wrapper>
       </h1>
     </S.Container>
   )
