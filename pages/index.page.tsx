@@ -1,10 +1,10 @@
-import * as S from './Home.style'
+import * as S from './styles'
 import { css } from '@emotion/react'
 
-function Home() {
+function IndexPage() {
   return (
     <S.Container>
-      Home
+      IndexPage
       <h1
         css={css`
           color: white;
@@ -19,4 +19,4 @@ function Home() {
   )
 }
 
-export default Home
+export default IndexPage

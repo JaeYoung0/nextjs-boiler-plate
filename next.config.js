@@ -41,6 +41,8 @@ const config = {
   compiler: {
     emotion: true,
   },
+
+  pageExtensions: ['page.tsx', 'page.ts'],
 }
 
 module.exports = config
